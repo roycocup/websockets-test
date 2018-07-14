@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    web-sock-server:
+      # container_name: web-sock-server
+      build: .
+      ports:
+        - 3000
